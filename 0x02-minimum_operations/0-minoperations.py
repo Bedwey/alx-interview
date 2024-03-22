@@ -4,16 +4,9 @@
 
 
 def minOperations(n):
-    '''Computes the fewest number of operations needed to result
-    in exactly n H characters in a text editor. The operations are:
-    1. Copy All
-    2. Paste
-
-    Parameters:
-    n (int): The target number of 'H' characters.
-
-    Returns:
-    ops_count (int): The minimum number of operations to reach n 'H' characters.
+    '''Computes the fewest number of 
+    operations needed to result in exactly
+    n H characters in a text editor.
     '''
 
     # Check if input is an integer
