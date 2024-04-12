@@ -34,6 +34,7 @@ def solve_n_queens(n):
     :param n: The number of queens.
     :return: All possible solutions.
     """
+
     def can_place(pos, ocuppied_positions):
         """
         Check if a queen can be placed at the given position.
@@ -44,10 +45,11 @@ def solve_n_queens(n):
         :return: True if a queen can be placed at the position,
         False otherwise.
         """
-        for i in range(len(ocuppied_positions)):
-            if ocuppied_positions[i] == pos or \
-                    ocuppied_positions[i] - i == pos - len(ocuppied_positions) or \
-                    ocuppied_positions[i] + i == pos + len(ocuppied_positions):
+        length = len(ocuppied_positions)
+        for i in range(length):
+            if (ocuppied_positions[i] == pos or
+                    ocuppied_positions[i] - i == pos - length or
+                    ocuppied_positions[i] + i == pos + length):
                 return False
         return True
 
