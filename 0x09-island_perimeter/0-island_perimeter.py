@@ -5,6 +5,21 @@
 
 def island_perimeter(grid):
     """Computes the perimeter of an island with no lakes.
+
+    The function takes a 2D grid as input where '1' represents 
+    land and '0' 
+    represents water. It computes and returns the perimeter 
+    of the island.
+
+    Args:
+        grid (List[List[int]]): A 2D list of integers representing
+        the island and water.
+
+    Returns:
+        int: The perimeter of the island.
+
+    Raises:
+        TypeError: If the input grid is not a list.
     """
     perimeter = 0
     if type(grid) != list:
