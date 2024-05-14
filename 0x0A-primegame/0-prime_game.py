@@ -3,9 +3,9 @@
 Prime Game Module.
 
 This module contains the implementation
-of a prime game. The game is played in `x` rounds, 
+of a prime game. The game is played in `x` rounds,
 with each round having a maximum prime number.
-The `isWinner` function determines the winner 
+The `isWinner` function determines the winner
 of the game based on the rules of the game.
 
 Functions:
