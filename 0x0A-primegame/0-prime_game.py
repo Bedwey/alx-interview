@@ -32,11 +32,12 @@ def isWinner(x, nums):
 
     Parameters:
     x (int): The number of rounds in the game.
-    nums (list): A list of integers representing the maximum
-    prime number for each round.
+    nums (list): A list of integers representing
+    the maximum prime number for each round.
 
     Returns:
-    str: The name of the winner ('Maria' or 'Ben') or None
+    str: The name of the winner
+    ('Maria' or 'Ben') or None
     if there's a tie.
     """
     if x < 1 or not nums:
